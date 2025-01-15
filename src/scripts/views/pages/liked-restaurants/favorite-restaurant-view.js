@@ -4,7 +4,7 @@ import { createRestaurantItemTemplate } from '../../templates/template-creator';
 class FavoriteRestaurantView {
   getTemplate() {
     return `
-      <div class="content">
+      <div class="content" id="mainContent>
         <input id="query" type="text">
         <h2 class="content__heading">Your Liked Restaurant</h2>
  
@@ -16,7 +16,7 @@ class FavoriteRestaurantView {
 
   getFavoriteRestaurantTemplate() {
     return `
-      <div class="content">
+      <div class="content" id="mainContent>>
         <h2 class="content__heading">Your Liked Restaurant</h2>
 
         <div id="restaurants" class="restaurants">

@@ -29,7 +29,7 @@
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.8.1",
     "eslint": "^8.57.1",
-    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-dicodingacademy": "^0.9.4",
     "eslint-plugin-import": "^2.31.0",
     "fake-indexeddb": "^4.0.2",
     "favicons-webpack-plugin": "^6.0.1",
@@ -53,6 +53,7 @@
     "workbox-webpack-plugin": "^7.1.0"
   },
   "dependencies": {
+    "dotenv": "^16.4.7",
     "idb": "^8.0.0",
     "regenerator-runtime": "^0.14.0",
     "workbox-window": "^7.1.0"
